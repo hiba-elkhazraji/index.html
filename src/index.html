@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <title>Js plugins</title>
+    <style>
+      button {
+        border: 0;
+        padding: 15px 20px;
+        border-radius: 10px;
+      }
+      .danger {
+        background-color: red;
+      }
+      h1 {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="generate-joke-button">Tell me joke</button>
+    <div id="joke">
+      <span class="Typewriter__wrapper">
+        <p>
+          Why do French people only eat one egg for breakfast? <br />Because one
+          egg is un œuf!
+        </p>
+      </span>
+      <span class="Typewriter__cursor"></span>
+    </div>
+    <script
+      id="define-custom-element-wtd-root"
+      src="chrome-extension://emnoomldgleagdjapdeckpmebokijail/src/scripts/injected/defineCustomElementsInjected.js"
+      data-params='{"elementName":"wtd-root","eventName":"customElements.defined","isShadowRoot":true}'
+    ></script>
+    <script
+      id="define-custom-element-wtd-div"
+      src="chrome-extension://emnoomldgleagdjapdeckpmebokijail/src/scripts/injected/defineCustomElementsInjected.js"
+      data-params='{"elementName":"wtd-div","eventName":"customElements.defined","isShadowRoot":true}'
+    ></script>
+    <wtd-div
+      id="wanteeedContainer"
+      style="
+        position: fixed;
+        display: block;
+        top: 0px;
+        right: 0px;
+        z-index: 2147483647;
+        visibility: visible;
+      "
+    >
+    </wtd-div>
+    <script
+      id="define-custom-element-wtd-root"
+      src="chrome-extension://emnoomldgleagdjapdeckpmebokijail/src/scripts/injected/defineCustomElementsInjected.js"
+      data-params='{"elementName":"wtd-root","eventName":"customElements.defined","isShadowRoot":true}'
+    ></script>
+    <wtd-root id="wtd-update-screen"> </wtd-root>
+    <script
+      id="define-custom-element-wtd-root"
+      src="chrome-extension://emnoomldgleagdjapdeckpmebokijail/src/scripts/injected/defineCustomElementsInjected.js"
+      data-params='{"elementName":"wtd-root","eventName":"customElements.defined","isShadowRoot":true}'
+    ></script>
+    <wtd-root id="cashback"></wtd-root>
+    <script
+      id="define-custom-element-wtd-root"
+      src="chrome-extension://emnoomldgleagdjapdeckpmebokijail/src/scripts/injected/defineCustomElementsInjected.js"
+      data-params='{"elementName":"wtd-root","eventName":"customElements.defined","isShadowRoot":true}'
+    ></script>
+
+    <h1>Hiba Elkhazraji</h1>
+    <h2></h2>
+    <button id="chalenge-1" disabled="disabled">chalenge 1</button>
+    <button id="chalenge-2">Click ici</button>
+    <button id="chalenge-3">Click here</button>
+    <script src="index.js"></script>
+  </body>
+</html>
